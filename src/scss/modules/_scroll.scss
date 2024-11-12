@@ -1,0 +1,139 @@
+.slider-mask {
+  overflow: hidden;
+  /*  height: 100vh;*/
+}
+
+.slider-container {
+  display: inline-flex;
+  height: 100vh;
+  gap: 10px;
+}
+
+.spacer {
+  height: 100vh;
+  margin-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc33,
+    #606dbc33 10px,
+    #606dbc00 10px,
+    #606dbc00 20px
+  );
+}
+
+.slider-mask {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slider-container {
+  display: inline-flex;
+  height: 100%;
+  gap: 10px;
+}
+
+.slider-item {
+  width: calc(100vw - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px red solid;
+}
+
+.slider-1-item {
+  width: calc(110vw - 30px);
+  border: 3px red solid;
+  background-image: url(/img/main_background.png);
+  background-size: cover;
+  position: relative;
+}
+
+.slider-2-item {
+  width: calc(60vw - 30px);
+  border: 3px red solid;
+  background-color: #050a14;
+  background-size: cover;
+  position: relative;
+}
+
+.slider-3-item {
+  width: calc(100vw - 30px);
+  border: 3px red solid;
+  background-color: #050a14;
+  background-size: cover;
+  position: relative;
+}
+
+.scroll-gallery-4 {
+  width: 20%;
+  position: absolute;
+  top: 24%;
+  left: 35%;
+}
+
+.scroll-gallery-2 {
+  width: 12%;
+  position: absolute;
+  top: 37%;
+  left: 52%;
+  z-index: 10;
+}
+
+.scroll-gallery-3 {
+  width: 30%;
+  position: absolute;
+  top: 52%;
+  left: 57%;
+}
+
+.scroll-gallery-1 {
+  width: 18%;
+  position: absolute;
+  top: 14%;
+  left: 80%;
+}
+
+.scroll-gallery-5 {
+  width: 45%;
+  position: absolute;
+  top: 17%;
+  left: 27%;
+}
+
+.scroll-gallery-7 {
+  width: 20%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.scroll-gallery-8 {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.scroll-gallery-9 {
+  width: 15%;
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  z-index: 10;
+}
+
+.scroll-gallery-10 {
+  width: 20%;
+  position: absolute;
+  top: 5%;
+  left: 48%;
+}
+.scroll-gallery-11 {
+  width: 25%;
+  position: absolute;
+  top: 17%;
+  left: 77%;
+}
