@@ -1,3 +1,50 @@
-img.paralaxe_1 {
-  max-width: 1920px;
+.parallax-element img {
+  width: 100%;
+}
+
+.parallax-container {
+  position: relative;
+  height: 84vw;
+}
+
+#element-1 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 100%;
+}
+
+#element-2 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 91%;
+}
+
+#element-3 {
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  right: 0%;
+  height: 59%;
+  width: 35%;
+}
+
+#element-4 {
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+  right: 0%;
+  height: 75%;
+  width: 30%;
+}
+
+#element-5 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  height: 25%;
+  width: 100%;
 }

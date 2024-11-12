@@ -1,8 +1,11 @@
 .nav {
   display: flex;
-  background-color: aqua;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  width: 85%;
+  margin: 35px 100px 0 100px;
+  z-index: 10;
 }
 
 .nav h1 {
@@ -15,7 +18,7 @@
 
 .nav-buttons {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .nav-buttons a {
