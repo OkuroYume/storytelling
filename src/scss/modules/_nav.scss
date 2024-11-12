@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  width: 200px;
+}
+
+.nav-logo {
+  width: 100%;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+}
