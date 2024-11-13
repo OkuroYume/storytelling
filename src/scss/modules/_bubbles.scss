@@ -1,0 +1,72 @@
+.wrapper {
+  height: 250vh;
+  background-color: #040a0f;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.epee {
+  height: 200px;
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+.epee img {
+  width: 40%;
+}
+
+.bulle {
+  opacity: 0;
+}
+
+.bulle img {
+  width: 100%;
+}
+
+#bulle-1 {
+  width: 27%;
+  top: 60%;
+  left: 38%;
+  position: absolute;
+}
+
+#bulle-2 {
+  width: 32%;
+  left: 38%;
+  top: 78%;
+  position: absolute;
+}
+
+#bulle-3 {
+  width: 25%;
+  top: 55%;
+  left: 38%;
+  position: absolute;
+}
+
+#bulle-4 {
+  top: 55%;
+  left: 38%;
+  width: 20%;
+  position: absolute;
+}
+
+#bulle-5 {
+  top: 95%;
+  left: 44%;
+  width: 18%;
+  position: absolute;
+}
+
+.bubbles-degrade {
+  top: 120%;
+  width: 120%;
+  height: 60%;
+  border: 1px red solid;
+  position: absolute;
+}
