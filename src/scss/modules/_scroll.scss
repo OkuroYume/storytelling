@@ -99,6 +99,24 @@
   left: 27%;
 }
 
+.image-container:hover .scroll-gallery-5 {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.image-container:hover .scroll-gallery-6 {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.scroll-gallery-6 {
+  width: 45%;
+  position: absolute;
+  top: 17%;
+  left: 27%;
+  opacity: 0;
+}
+
 .scroll-gallery-7 {
   width: 20%;
   position: absolute;

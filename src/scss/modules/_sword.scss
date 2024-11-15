@@ -59,3 +59,9 @@
   height: 60%;
   position: absolute;
 }
+
+@media (min-width: 1800px) {
+  .bubbles-degrade {
+    top: 130%;
+  }
+}

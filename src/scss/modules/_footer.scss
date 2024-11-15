@@ -108,6 +108,7 @@ footer a:hover {
 .footer-block-container {
   margin: 150px 120px;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-policies {
@@ -207,8 +208,14 @@ footer a:hover {
 }
 
 .footer-block-2 {
-  margin: 165px 0 0 250px;
+  margin: 165px 0 0 20px;
   font-family: "Creato Display", sans-serif;
+}
+
+@media (min-width: 1800px) {
+  .footer-block-2 {
+    margin: 165px 234px 0 250px;
+  }
 }
 
 .footer-block-2 h5 {
