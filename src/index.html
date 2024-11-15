@@ -17,8 +17,8 @@
           />
         </h1>
         <div class="nav-buttons">
-          <a href=""><p>Découvrir Furieuse</p></a>
-          <a href=""><p>Acheter maintenant</p></a>
+          <a href="#horizontal-scroll"><p>Découvrir Furieuse</p></a>
+          <a href="#footer"><p>Acheter maintenant</p></a>
         </div>
       </div>
       <div class="parallax-container">
@@ -41,7 +41,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main id="horizontal-scroll">
       <div class="slider-mask">
         <div class="slider-container">
           <div class="slider-1-item">
@@ -81,7 +81,7 @@
       <div class="wrapper">
         <div class="container">
           <div class="epee"><img src="/img/sowrd.png" alt="" /></div>
-          <!-- <img class="bubbles-degrade" src="../img/degrade_3.png" alt="" /> -->
+          <img class="bubbles-degrade" src="../img/degrade_3.png" alt="" />
           <div id="bulle-1" class="bulle">
             <img class="bulle-1" src="/img/sword_gallery_1.png" alt="bubble" />
           </div>
@@ -100,50 +100,80 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="footer-info">
-        <h2><img src="/img/logo_white.png" alt="Logo" /></h2>
-        <p>
-          Après « Le Mystère du monde quantique » et « Sous Terre », Mathieu
-          Burniat revient avec « Furieuse », une pure fiction scénarisée par
-          Geoffroy Monde (« Poussière », « Comment réussir » et « De rien »).
-        </p>
-        <p>
-          Le roi Arthur, celui de la légende ? Un vieil ivrogne décrépit qui
-          passe ses journées vautré sur son trône. Sa gloire désormais bien
-          lointaine, il la doit à l'épée magique que Merlin lui a forgée pour
-          terrasser les hordes de démons venues envahir le royaume de Pendragon.
-          Devenue témoin de sa déchéance, l'arme enchantée s'ennuie ferme tandis
-          que la princesse Ysabelle fulmine car son débris de père l'a promise
-          en mariage à l'ignoble petit baron de Cumbre. Toutes deux bien
-          décidées à se trouver un meilleur destin, Ysa et l'épée s'allient pour
-          fuir le château et partir à la recherche de Merlin et de Maxine, la
-          grande soeur disparue. Mais le vaste monde peut se montrer bien cruel
-          pour une princesse qui n'a connu que la vie de palais. Et les
-          intentions de l'épée sont peut-être moins nobles qu'il n'y paraît...
-        </p>
-        <div class="footer-details">
-          <h3>Details</h3>
+    <footer id="footer">
+      <div class="footer-product-container">
+        <div class="footer-info">
+          <h2><img src="/img/logo_white.png" alt="Logo" /></h2>
           <p>
-            Une BD de Geoffroy Monde et Mathieu Burniat édité par DARGAUD de 240
-            pages. Date de parution : 14.10.2022 ISBN-13 : 978-2205203226
+            Après « Le Mystère du monde quantique » et « Sous Terre », Mathieu
+            Burniat revient avec « Furieuse », une pure fiction scénarisée par
+            Geoffroy Monde (« Poussière », « Comment réussir » et « De rien »).
           </p>
+          <p>
+            Le roi Arthur, celui de la légende ? Un vieil ivrogne décrépit qui
+            passe ses journées vautré sur son trône. Sa gloire désormais bien
+            lointaine, il la doit à l'épée magique que Merlin lui a forgée pour
+            terrasser les hordes de démons venues envahir le royaume de
+            Pendragon...
+          </p>
+          <div class="footer-details">
+            <h3>Details</h3>
+            <p>
+              Une BD de Geoffroy Monde et Mathieu Burniat édité par DARGAUD de
+              240 pages. Date de parution : 14.10.2022 ISBN-13 : 978-2205203226
+            </p>
+            <div class="footer-button-container">
+              <div class="footer-button">ACHETER MAINTENANT</div>
+              <div class="footer-button">VOIR LES POINTS DE VENTE</div>
+            </div>
+          </div>
         </div>
-        <div class="footer-button">ACHETER MAINTENANT</div>
-        <div class="footer-button">VOIR LES POINTS DE VENTE</div>
+        <div class="footer-product">
+          <img src="/img/book_mockup.png" alt="Lvre furieuse" />
+        </div>
       </div>
       <hr />
-      <h4><img src="/img/logo-dargaud.svg" alt="Logo Dargaud" /></h4>
-      <div class="social-media">
-        <img src="/img/instagram.svg" alt="Logo instagram" />
-        <img src="/img/facebook.svg" alt="Logo Facebook" />
-        <img src="/img/x.svg" alt="Logo X" />
+      <div class="footer-block-container">
+        <div class="footer-block-1">
+          <h4><img src="/img/logo-dargaud.svg" alt="Logo Dargaud" /></h4>
+          <div class="footerlinks">
+            <div class="social-media">
+              <img src="/img/instagram.svg" alt="Logo instagram" />
+              <img src="/img/facebook.svg" alt="Logo Facebook" />
+              <img src="/img/x.svg" alt="Logo X" />
+            </div>
+            <div class="footer-policies">
+              <a href="">CONDITIONS GÉNÉRALES</a>
+              <a href="">POLITIQUE DE CONFIDENTIALITÉ</a>
+            </div>
+          </div>
+          <div class="footer-newsletter">
+            <h5>ABONNE-TOI À NOTRE NEWLETTERS</h5>
+            <div class="footer-form-container">
+              <div class="footer-form">
+                <form action="#" method="POST">
+                  <input
+                    type="email"
+                    placeholder="INSÉREZ VOTRE E-MAIL ICI"
+                    required
+                  />
+                </form>
+                <button type="submit">S'ABONNER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-block-2">
+          <h5>À PROPOS</h5>
+          <p>LES AUTEURS</p>
+          <p>ACHETER LA BD</p>
+          <p>TROUVER LES POINTS DE VENTE</p>
+          <p>LES AUTRES TITRES DE DARGAUD</p>
+        </div>
       </div>
-      <div>
-        <a href="">CONDITIONS GÉNÉRALES</a>
-        <a href="">POLITIQUE DE CONFIDENTIALITÉ</a>
+      <div class="footer-copyright">
+        <p>Tous droits reservés ©Dargaud 2023</p>
       </div>
-      <div class="newsletter"></div>
     </footer>
 
     <script src="js/main.js" type="module"></script>

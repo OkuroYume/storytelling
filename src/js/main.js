@@ -48,37 +48,3 @@ gsap
     },
     0
   );
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".wrapper",
-      start: "top top",
-      scrub: true,
-      pin: true,
-    },
-  })
-  .to("#bulle-1", {
-    left: "27%",
-    top: "13%",
-    opacity: 1,
-  })
-  .to("#bulle-2", {
-    left: "12%",
-    top: "78%",
-    opacity: 1,
-  })
-  .to("#bulle-3", {
-    left: "67%",
-    top: "55%",
-    opacity: 1,
-  })
-  .to("#bulle-4", {
-    left: "53%",
-    top: "25%",
-    opacity: 1,
-  })
-  .to("#bulle-5", {
-    left: "60%",
-    top: "95%",
-    opacity: 1,
-  });

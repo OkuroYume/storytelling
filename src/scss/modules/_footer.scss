@@ -1,0 +1,226 @@
+footer {
+  height: 225vh;
+  background: #040a0f;
+  color: #fff;
+}
+
+.footer-product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 180px 120px;
+}
+
+.footer-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-product img {
+  width: 100%;
+  max-width: 650px;
+  margin-top: 35px;
+}
+
+.footer-info {
+  max-width: 500px;
+  color: #fff;
+}
+
+.footer-info h2 img {
+  width: 45%;
+  margin-bottom: 77px;
+}
+
+.footer-info p {
+  font-family: "Creato Display", sans-serif;
+  font-size: 18px;
+  color: var(--white, #fff);
+  margin-bottom: 15px;
+}
+
+.footer-details {
+  margin-top: 30px;
+}
+
+.footer-details h3 {
+  margin-bottom: 20px;
+  font-family: "Creato Display";
+  font-size: 20px;
+}
+
+.footer-button-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 90px;
+}
+
+.footer-button {
+  padding: 15px 30px;
+  background: #e6affa;
+  color: #fff;
+  font-family: "Creato Display";
+  font-size: 14px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background: transparent;
+  color: #e6affa;
+  border: 2px solid #e6affa;
+}
+
+hr {
+  border: 1px solid #fff;
+  margin: 40px 120px;
+}
+
+footer h4 img {
+  width: 55%;
+  margin: 0 0 50px -15px;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  height: auto;
+}
+
+footer a {
+  color: #e6affa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-block-container {
+  margin: 150px 120px;
+  display: flex;
+}
+
+.footer-policies {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Creato Display";
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.footer-policies a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-newsletter {
+  margin-top: 70px;
+}
+
+.footer-newsletter h5 {
+  margin-bottom: 30px;
+  font-family: "Creato Display";
+  font-size: 20px;
+}
+
+.footer-form input[type="email"] {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: "Creato Display", sans-serif;
+  font-size: 16px;
+  flex-grow: 1;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #e6affa;
+  width: 454px;
+  height: 47px;
+}
+
+.footer-form input[type="email"]::placeholder {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.footer-form input[type="submit"] {
+  background-color: #e6affa;
+  color: #ffffff;
+  font-family: "Creato Display", sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-form input[type="submit"]:hover {
+  background-color: #e6affa;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.footer-form input {
+  padding: 10px 15px;
+  border: 1px solid #9146ff;
+  background: transparent;
+  color: #ffffff;
+  flex-grow: 1;
+  font-size: 1em;
+}
+
+.footer-form button {
+  padding: 10px 20px;
+  background: #e6affa;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-family: "Creato Display", sans-serif;
+
+  transition: all 0.3s ease;
+  width: 214px;
+  padding: 15px 30px;
+}
+
+.footer-form button:hover {
+  background: none;
+  color: #fff;
+  border: 1px #e6affa solid;
+}
+
+.footer-block-2 {
+  margin: 165px 0 0 250px;
+  font-family: "Creato Display", sans-serif;
+}
+
+.footer-block-2 h5 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.footer-block-2 p {
+  font-size: 16px;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-family: "Creato Display";
+  font-size: 13px;
+  opacity: 70%;
+}
