@@ -14,6 +14,7 @@ window.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+
 gsap
   .timeline({
     scrollTrigger: {
@@ -48,3 +49,37 @@ gsap
     },
     0
   );
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".container",
+      start: "top top",
+      scrub: true,
+      pin: true,
+    },
+  })
+  .to("#bulle-1", {
+    left: "12%",
+    top: "25%",
+    opacity: 1,
+  })
+  .to("#bulle-2", {
+    left: "19%",
+    top: "75%",
+    opacity: 1,
+  })
+  .to("#bulle-3", {
+    left: "66%",
+    top: "45%",
+    opacity: 1,
+  })
+  .to("#bulle-4", {
+    left: "55%",
+    top: "10%",
+    opacity: 1,
+  })
+  .to("#bulle-5", {
+    left: "60%",
+    top: "85%",
+    opacity: 1,
+  });
