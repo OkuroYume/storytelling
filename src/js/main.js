@@ -52,10 +52,12 @@ gsap
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".container",
-      start: "top top",
+      trigger: "#epee",
+      start: "50% center",
+      end: "bottom top",
       scrub: true,
-      pin: true,
+      // markers: true,
+      // pin: true,
     },
   })
   .to("#bulle-1", {
