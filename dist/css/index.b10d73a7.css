@@ -359,7 +359,7 @@ html {
 footer {
   color: #fff;
   background: #040a0f;
-  height: 242vh;
+  height: 275vh;
   padding-top: 200px;
 }
 
@@ -561,7 +561,7 @@ footer a:hover {
 }
 
 .footer-block-2 {
-  margin: 165px 0 0 20px;
+  margin: 110px 0 0 20px;
   font-family: Creato Display, sans-serif;
 }
 
@@ -577,12 +577,14 @@ footer a:hover {
 }
 
 .footer-block-2 p {
+  margin-top: 15px;
   font-size: 16px;
 }
 
 .footer-copyright {
   text-align: center;
   opacity: .7;
+  margin-top: 250px;
   font-family: Creato Display;
   font-size: 13px;
 }
