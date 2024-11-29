@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", function () {
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".parallax-container",
+      trigger: ".parallax-container", // Élément déclencheur.
       start: "top top",
       scrub: 1,
       pin: true,
@@ -66,8 +66,8 @@ gsap
     opacity: 1, // Rendre la bulle visible.
   })
   .to("#bulle-2", {
-    left: "19%",
-    top: "75%",
+    left: "55%",
+    top: "10%",
     opacity: 1,
   })
   .to("#bulle-3", {
@@ -76,8 +76,8 @@ gsap
     opacity: 1,
   })
   .to("#bulle-4", {
-    left: "55%",
-    top: "10%",
+    left: "19%",
+    top: "75%",
     opacity: 1,
   })
   .to("#bulle-5", {

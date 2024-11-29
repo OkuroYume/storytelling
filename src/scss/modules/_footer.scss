@@ -71,8 +71,12 @@ footer {
 
 .footer-button:hover {
   background: transparent;
-  color: #e6affa;
   border: 2px solid #e6affa;
+}
+
+.footer-button a {
+  color: #fff;
+  text-decoration: none;
 }
 
 hr {
@@ -97,7 +101,6 @@ footer h4 img {
 }
 
 footer a {
-  color: #e6affa;
   text-decoration: none;
 }
 

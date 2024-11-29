@@ -28,7 +28,7 @@
 
 .slider-1-item {
   width: calc(110vw - 30px);
-  background-image: url(/img/main_background.png);
+  background-image: url(/img/main_background.png); //j'ai pas transformé cette image en Webp parce que si je le fais il me dit qu'elle est trop grande pour la transformer.
   background-size: cover;
   position: relative;
 }
